@@ -116,7 +116,7 @@ unsigned char buf[LENG];
 
 
 //data and sensors
-const char  listSensors[][4]  = {"CO2", "NO2", "CO ", "PMs"};  // is PROGMEM worth it ?º*º*º*º*º*º*º*ª*
+const char  listSensors[][4]  = {"CO2", "NO2", "CO ", "PMs"};  
 bool activeSensors[] = {false, false, false, false};
 
 //time management variables
@@ -1040,7 +1040,7 @@ bool mainScreen() {
         lcd.clear();
 
         if (menuDisplay != numberDisplays) {
-          for (iSensor = 0; iSensor < (sizeof(activeSensors) + 2); iSensor++) {  //(sizeof(activeSensors) drgdrg
+          for (iSensor = 0; iSensor < (sizeof(activeSensors) + 2); iSensor++) {  
             if (shownDisplays == 2) {
               break;
             }
@@ -1258,11 +1258,3 @@ int transmitPM10(unsigned char *thebuf)
   PM10Val = ((thebuf[7] << 8) + thebuf[8]); //count PM10 value of the air detector module
   return PM10Val;
 }
-
-
-
-
-/*
-   add initialTime to experiment time
-   initialTime
-*/
