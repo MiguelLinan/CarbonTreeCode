@@ -70,7 +70,7 @@ If you want to learn how to use your new Station please take a look at the follo
 
 Button mapping:
 
-[Image](/Images/close_up_numbers.png)
+![Image](/Images/close_up_numbers.png)
 
 The **simplest way** to use the **Station** is by selecting `1-Endless` -> `1-Default` ->  `1-All` -> `1-New` -> `2-Skip`  as soon as it start, making sure the SD car is in the SD reader slot below the LCD. By selecting these options the data collection process will start in a `new` file with a time between data measurements of 1 minute (the `default`). It will do so for an `endless` period of time (actually 49 days) taking data from `all` sensors. The start date and time will not be saved in the file because of the `skip` done in the setup.
 
