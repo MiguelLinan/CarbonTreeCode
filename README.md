@@ -35,7 +35,7 @@ The Air Quality Station code/software has various useful features:
     * How much **time left** until the data collection is **over**
     * A button which **saves a note** in the data file in that **exact moment** (as a way of taking notes of important moments which could affect the data collected) 
 
-The **instructions** on how to operate this machine can be found on the following [document][link_tutorial]   **_<- Insert link_**
+The **manual** on how to operate this machine can be found on the following [**Instructions**][link_tutorial]  
 
 ## **Carbon Tree**
 
@@ -62,16 +62,18 @@ text
 4. After you've installed the Arduino IDE you'll have to **download** and **upload** the **code** to **Arduino** inside the Station.
 The most recent version of the code can be found right above this README.md with a name like: `X.X.X_AirQuality_Station.ino` (X being the version of the code). For further information you can visit this [page](https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-1/upload-your-first-sketch).
 
-If you want to learn how to use your new Station please take a look at the following **intructions** [document][link_tutorial]   **_<- Insert link_**
+If you want to learn how to use your new Station please take a look at the following [**Instructions**][link_tutorial]   
 
 ## **Using The Station**
 
 ---
 
-To use the station......................
+To **simplest way** to use the **Station** is by selecting `1-Endless` -> `1-Default` ->  `1-All` -> `1-New` -> `2-Skip`  as soon as it start, making sure the SD car is in the SD reader slot below the LCD. By selecting these options the data collection process will start in a `new` file with a time between data measurements of 1 minute (the `default`). It will do so for an `endless` period of time (actually 49 days) taking data from `all` sensors. The start date and time will not be saved in the file because of the `skip` done in the setup.
+
+To take advantage of the full functionalities of the Station like saving the date and time in the file itself please go through the [**Instructions**][link_tutorial]  
 
 
-[link_tutorial]: https://docs.google.com/document/d/1T4xtQLqhaCJcnTU4sV4L8lUPmjTFFTN8yCQhNOLety0/edit?usp=sharing
+[link_tutorial]: https://docs.google.com/document/d/1T4xtQLqhaCJcnTU4sV4L8lUPmjTFFTN8yCQhNOLety0/edit?usp=sharing     **_<- Insert link_**
 
 
 
