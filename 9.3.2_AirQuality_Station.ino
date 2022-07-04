@@ -116,7 +116,7 @@ unsigned char buf[LENG];
 
 
 //data and sensors
-const char  listSensors[][4]  = {"CO2", "NO2", "CO ", "PMs"};  
+const char  listSensors[][4]  = {"CO2", "NO2", "CO ", "PMs"};
 bool activeSensors[] = {false, false, false, false};
 
 //time management variables
@@ -125,7 +125,7 @@ const unsigned int refreshRate = 150;  //refresh rate for buttons
 unsigned long setupDuration = 0;
 unsigned long hourSetTime = 0;         //to know at what time the time input was given
 unsigned long endlessExit = 0;    //contar o tempo para sair do endless
-const unsigned int endlessExitTime = 6000;  //refresh rate for buttons
+const unsigned int endlessExitTime = 6000;
 
 
 //display variavles
@@ -165,6 +165,8 @@ void setup() {
     setupDuration = 0;
     writeIntervalSD = 60000;
     experimentDuration = 3600000;
+    hourSetTime = 0;       
+    endlessExit = 0;
 
 
     timer ();    //define the experiments duration
@@ -1040,7 +1042,7 @@ bool mainScreen() {
         lcd.clear();
 
         if (menuDisplay != numberDisplays) {
-          for (iSensor = 0; iSensor < (sizeof(activeSensors) + 2); iSensor++) {  
+          for (iSensor = 0; iSensor < (sizeof(activeSensors) + 2); iSensor++) {
             if (shownDisplays == 2) {
               break;
             }
@@ -1204,16 +1206,22 @@ void displayPM_10(float sensorFloat) {
 int getButtons() {
   int buttonsValue = analogRead(buttonsPin);     //output from the LCD buttons (divisor pode ser alterado se a leitura dos botões estiver com descrepãncias)
   if (buttonsValue < 190) {
+    Serial.println(5); //For debugging
     return  5;
   } else if (buttonsValue < 370) {
+    Serial.println(4); //For debugging
     return  4;
   } else if (buttonsValue < 510) {
+    Serial.println(3); //For debugging
     return  3;
   } else if (buttonsValue < 720) {
+    Serial.println(2); //For debugging
     return  2;
   } else if (buttonsValue < 900) {
+    Serial.println(1); //For debugging
     return  1;
   } else {
+    Serial.println(0); //For debugging
     return 0;
   }
 }
