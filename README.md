@@ -73,7 +73,7 @@ To **simplest way** to use the **Station** is by selecting `1-Endless` -> `1-Def
 To take advantage of the full functionalities of the Station like saving the date and time in the file itself please go through the [**Instructions**][link_tutorial]  
 
 
-[link_tutorial]: https://docs.google.com/document/d/1T4xtQLqhaCJcnTU4sV4L8lUPmjTFFTN8yCQhNOLety0/edit?usp=sharing     **_<- Insert link_**
+[link_tutorial]: https://docs.google.com/document/d/1T4xtQLqhaCJcnTU4sV4L8lUPmjTFFTN8yCQhNOLety0/edit?usp=sharing     
 
 
 
