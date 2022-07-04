@@ -23,7 +23,19 @@ The data collected is **displayed** in a 2x16 **LCD display** _and_ **saved** to
 
 ---
 
-With this Air Quality Station .......................................
+The Air Quality Station code/software has various useful features:
+
+* Setting the **time delay** between each **measurement** from the sensors
+* Setting up a **timer** for the data collection to **stop**
+* The ability to **chose** which **sensors** to collect data from
+* The option of choosing between saving new data on a **new file** or in an **existing one**  
+* The ability of **saving** (manually) the **date** and **time** of the beginning of the experiment in the file
+* Access to screen with information about the data collection process:
+    * How many **bites** in the **data file**
+    * How much **time left** until the data collection is **over**
+    * A button which **saves a note** in the data file in that **exact moment** (as a way of taking notes of important moments which could affect the data collected) 
+
+The **instructions** on how to operate this machine can be found on the following [document][link_tutorial]   **_<- Insert link_**
 
 ## **Carbon Tree**
 
@@ -50,6 +62,8 @@ text
 4. After you've installed the Arduino IDE you'll have to **download** and **upload** the **code** to **Arduino** inside the Station.
 The most recent version of the code can be found right above this README.md with a name like: `X.X.X_AirQuality_Station.ino` (X being the version of the code). For further information you can visit this [page](https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-1/upload-your-first-sketch).
 
+If you want to learn how to use your new Station please take a look at the following **intructions** [document][link_tutorial]   **_<- Insert link_**
+
 ## **Using The Station**
 
 ---
@@ -57,7 +71,7 @@ The most recent version of the code can be found right above this README.md with
 To use the station......................
 
 
-
+[link_tutorial]: https://docs.google.com/document/d/1T4xtQLqhaCJcnTU4sV4L8lUPmjTFFTN8yCQhNOLety0/edit?usp=sharing
 
 
 
