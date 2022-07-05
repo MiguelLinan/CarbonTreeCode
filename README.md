@@ -43,8 +43,14 @@ The **manual** on how to operate this machine can be found on the following [**I
 
 ### _What is the Carbon Tree Project?_
 
-Well... 
-text
+**Carbon Tree** is an active citizenship project from the **Ciência+Cidadã** programme. 
+Ciência+Cidadã is a collaboration between **Instituto Gulbenkien Ciência**, the **Instituto de Tecnologia e Química Biológica António Xavier**, the **Oeiras Municipality** and the **Escola Secundária Sebastião e Silva**. 
+Together, the goal is to bring science close to people, to demystify the idea that to do Science we need to wear a white coat behind a laboratory!
+And the Carbon Tree Project is precisely about it. 
+In groups, about **30 students** studied an air pollutant of their choice with the station. 
+They built and programmed the station, worked around the scientific process and collected and analysed the data all by themselves with a bit of help from researchers and companies - **INOVLABS** for the station. 
+**Students are the true soul of the Project**. 
+The next step is to share with everyone what has been learnt in schools, conferences or forums national and internationally.
 
 .
 
