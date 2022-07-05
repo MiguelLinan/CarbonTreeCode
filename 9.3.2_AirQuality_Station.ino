@@ -165,7 +165,7 @@ void setup() {
     setupDuration = 0;
     writeIntervalSD = 60000;
     experimentDuration = 3600000;
-    hourSetTime = 0;       
+    hourSetTime = 0;
     endlessExit = 0;
 
 
@@ -245,6 +245,8 @@ void welcome() {
   lcd.clear();                           //clean the display before write
   lcd.setCursor(0, 0);                    //set the LCD cursor position first column(0) and first line(0)
   lcd.print(F(" Ambient meter"));                    //message to show
+  lcd.setCursor(0, 1);                   //set the LCD cursor position first column(0) and second line(1)
+  lcd.print(F("    v 9.3.3 "));                   //message to show
   delay(3000);                    //wait 3s
 
   if (getButtons() == 5) {
@@ -257,7 +259,7 @@ void welcome() {
   lcd.print(F("Wait 5 min"));                   //message to show
   lcd.write(byte(1));                    //display the warning character
   lcd.setCursor(0, 1);                   //set the LCD cursor position first column(0) and second line(1)
-  lcd.print(F("to stabilize"));                   //message to show
+  lcd.print(F("to stabilise"));                   //message to show
   delay(4000);                   //wait 4s
 }
 
