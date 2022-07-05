@@ -29,7 +29,7 @@ The Air Quality Station code/software has various useful features:
 * Setting up a **timer** for the data collection to **stop**
 * The ability to **chose** which **sensors** to collect data from
 * The option of choosing between saving new data on a **new file** or in an **existing one**  
-* The ability of **saving** (manually) the **date** and **time** of the beginning of the experiment in the file
+* The ability of **saving** (manually) the **date** and **time** of the beginning of the experiment in the file (example file above: "DATA09.CSV")
 * Access to screen with information about the data collection process:
     * How many **bites** in the **data file**
     * How much **time left** until the data collection is **over**
@@ -83,7 +83,7 @@ The **simplest way** to use the **Station** is by selecting `1-Endless` -> `1-De
 To take advantage of the **full functionalities** of the Station like saving the date and time in the file itself please **_go through_** the [**Instructions**][link_tutorial]  
 
 
-[link_tutorial]: https://docs.google.com/document/d/1T4xtQLqhaCJcnTU4sV4L8lUPmjTFFTN8yCQhNOLety0/edit?usp=sharing     
+[link_tutorial]: https://docs.google.com/document/d/1T4xtQLqhaCJcnTU4sV4L8lUPmjTFFTN8yCQhNOLety0/edit?usp=sharing 
 
 
 
