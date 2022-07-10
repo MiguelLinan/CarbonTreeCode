@@ -246,7 +246,7 @@ void welcome() {
   lcd.setCursor(0, 0);                    //set the LCD cursor position first column(0) and first line(0)
   lcd.print(F(" Ambient meter"));                    //message to show
   lcd.setCursor(0, 1);                   //set the LCD cursor position first column(0) and second line(1)
-  lcd.print(F("    v 9.3.3 "));                   //message to show
+  lcd.print(F("    v 9.3.2 "));                   //message to show
   delay(3000);                    //wait 3s
 
   if (getButtons() == 5) {
